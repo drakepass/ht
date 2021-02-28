@@ -39,7 +39,7 @@ var timeCmd = &cobra.Command{
 			}
 			log.Printf("解析日期为: %s",FormatToDate(time.Unix(sec, 0),location))
 		default:
-			log.Printf("当前时间戳: %d", nowTime.Unix())
+			log.Printf("------当前时间戳: %d", nowTime.Unix())
 		}
 	},
 }
